@@ -13,7 +13,7 @@ superior-->
 <h2>Picasso</h2>
 <!-- definim un navegador, com si fora una llista per ara
 les referencies no apunten enlloc-->
-<nav>
+<nav id="menuprincipal">
 <li><a href="#">Inici</a></li>
 <li><a href="#">Productes</a></li>
 <li><a href="#">Serveis</a></li>
@@ -21,23 +21,44 @@ les referencies no apunten enlloc-->
 </nav>
 </header>
 <!-- deifnim una nova etiqueta section (similar al div)-->
-14
 <section>
 <!-- dins d'una secció podem definir diferents articles-->
-<article>
+<article class="cuadro">
 <h1>Guernica</h1>
-<a href="https://www.museoreinasofia.es/coleccion/obra/guernica"></a>
+<a href="https://www.museoreinasofia.es/coleccion/obra/guernica"> Informació</a>
 </article>
-<article>
+<article class="cuadro">
 <h1>Las señoritas de Avignon</h1>
-
+<a href="#">Amplia informaió</a>
 </article>
-<article>
+<article class="cuadro">
 <h1>El sueño</h1>
+<a href="#">Amplia informaió</a>
 </article>
-<article>
+<article class="cuadro">
 <h1>Chica frente a un espejo</h1>
+<a href="#">Amplia informaió</a>
 </article>
 </section>
+<video controls class="cuadro">
+    <source src="Video.mp4"/>
+    </video> 
+    <form method="post" action="https://result.php">
+        <br>
+        <input type="text" />
+        <br>
+        <input type="checkbox"/>
+        <input type="button" value="pulsar"/>
+        <br>
+        <select>
+        <option>opcio 1</option>
+        <option>opcio 2</option>
+        </select>
+        <textarea>àrea de text</textarea>
+        <input class="btn" type="button" value = "enviar">
+    
+    
+        </form>
+       
 </body>
 </html>

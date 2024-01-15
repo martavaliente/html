@@ -1,7 +1,59 @@
+*{
+    background-color: rgb(228, 221, 210);
+}
 a {
-    color:cyan;
+    color:rgb(166, 178, 59);
     }
+
+ #menuprincipal{
+        background-color: rgb(194, 192, 255);
+        color: blue;
+        border: 2px solid rgb(37, 169, 240);
+        margin: 20px;
+        padding: 20px;
+        }
+
+        ul, li {
+            padding: 0,0;
+            margin: 2px ,2px;
+            display: inline-block;
+            }
+            
 #tit {
-        color: rgb(255, 0, 102);
+        color: rgb(203, 67, 122);
         }  
-  
+.cuadro {
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(89,148,202,1) 62%,rgba(95,154,207,0.7) 68%,rgba(125,185,232,0) 100%);
+    color: rgb(169, 167, 167);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    opacity: 0.9;		
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(176, 94, 94);
+
+}
+    .btn {
+        background: #34d981;
+        background-image: -webkit-linear-gradient(top, #34d981, #40b82b);
+        background-image: -moz-linear-gradient(top, #34d981, #40b82b);
+        background-image: -ms-linear-gradient(top, #34d981, #40b82b);
+        background-image: -o-linear-gradient(top, #34d981, #40b82b);
+        background-image: linear-gradient(to bottom, #34d981, #40b82b);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Georgia;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cfaab;
+        text-decoration: none;
+      }
