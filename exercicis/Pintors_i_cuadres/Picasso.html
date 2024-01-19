@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creatividad Reflejada</title>
+<meta charset="utf8">
+<link href="7.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- header defineix una zona a dins del body, sempre a la part
+superior-->
+<header>
+    <div id="ImatgeP">
+        <img src="ImatgeP.jpg" alt="" width="100%" height="300px">
+    </div>
+<!-- definim un navegador, com si fora una llista per ara
+les referencies no apunten enlloc-->
+<nav id="menuprincipal" style="text-align: center">
+<li><a id="l1" href="#">Inici</a></li>
+<li><a id="l2" href="">Cuadros de Picasso</a></li>
+<li><a id="l2" href="#">Cuadros de Van Gogh</a></li>
+<li><a id="l2" href="#">Cuadros de Dalí</a></li>
+<li><a id="l2" href="#">Cuadros de Miro</a></li>
+<li><a id="l3" href="#">Serveis</a></li>
+<li><a id="l4" href="#">Contacte</a></li>
+</nav>
+<h1 id="tit">Picasso</h1>
+</header>
+<!-- deifnim una nova etiqueta section (similar al div)-->
+<section style="text-align: center">
+<!-- dins d'una secció podem definir diferents articles-->
+<article class="cuadro" style="text-align: center">
+<h1>Guernica</h1>
+  <div>
+    <div>
+      <a href="https://historia-arte.com/obras/guernica" title="">
+      <img alt="" src="guernica1.jpg.png" width="60%" height="100%" />
+      </a>
+    </div>
+    <a>Preu: 80€</a>
+    <a>Descripció: 80x180cm, técnica: Óleo</a>
+  </div>
+</article>
+<article class="cuadro" style="text-align: center">
+<h1>Mujeres de Argel</h1>
+  <div>
+    <div>
+      <a href="https://historia-arte.com/obras/mujeres-de-argel" title="">
+      <img alt="" src="Mujeres de argel.png" width="60%" height="100%" />
+      </a>
+    </div>
+      <a>Preu: 65€</a>
+      <a>Descripció: 114x146.4 cm, técnica: Óleo</a>
+  </div>
+</article>
+<article class="cuadro" style="text-align: center">
+<h1>Chica frente a un espejo (Les femmes d`Alger)</h1>
+  <div>
+    <div>
+      <a href="https://historia-arte.com/obras/mujer-ante-espejo-de-picasso" title="">
+      <img alt="" src="Mujer espejo.png" width="60%" height="100%" />
+      </a>
+    </div>
+      <a>Preu: 60€</a>
+      <a>Descripció: 162,3 x 130,2 cm, técnica: Óleo </a>
+  </div>
+</article>
+<article class="cuadro" style="text-align: center">
+<h1>Las señoritas de Avignon (Les Demoiselles d'Avignon)</h1>
+<div>
+  <div>
+    <a href="https://historia-arte.com/obras/las-senoritas-de-avignon" title="">
+      <img alt="" src="Las señoritas de Avignon.png" width="60%" height="100%" />
+      </a>
+  </div>
+  <a>Preu: 70€</a>
+  <a>Descripció: 143.9x133.7 cm, Técnica: Óleo</a>
+</div>  
+</article>
+<article class="cuadro" style="text-align: center">
+  <h1>Los tres músicos</h1>
+  <div>
+    <div>
+      <a href="https://historia-arte.com/obras/los-tres-musicos" title="">
+        <img alt="" src="Captura de pantalla 2024-01-18 184834.png" width="60%" height="100%" />
+        </a>
+    </div>
+    <a>Preu: 55€</a>
+    <a>Descripció: 180.7x202.9 cm, Técnica: Óleo</a>
+  </div>
+</article>
+<article class="cuadro" style="text-align: center">
+  <h1>Retrato de Jaume Sabartés</h1>
+  <div>
+    <div>
+      <a href="https://historia-arte.com/obras/retrato-de-jaume-sabartes" title="">
+        <img alt="" src="Captura de pantalla 2024-01-18 184852.png" width="60%" height="100%" />
+        </a>
+    </div>
+    <a>Preu: 50€</a>
+    <a>Descripció: 86 x 68 cm, Técnica: Óleo</a>
+  </div>  
+</article>
+</section>
+<form action="/action_page.php" class="CuadroI">
+  <div class="CuadroInfo">
+    <label for="fname">Nom:</label>
+    <input type="text" id="fname" name="fname" value=""> <label class="posicion" for="fname">Missatge:</label><br><br> 
+    <label for="lname">Cognom:</label> 
+    <input type="text" id="lname" name="lname" value=""><textarea class="posicion"></textarea><br><br>
+    <label for="fname">Assument:</label>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+    <label for="fname">País:</label>
+<select>
+    <option>Spain</option>
+    <option>Other country</option>
+</select><input class="posicion" type="submit" value="Submit">
+  </div>
+</form>
+<footer>
+    <p>©2024 Copyright</p> <a class="posicion" href="https://www.facebook.com" title="">
+      <img alt="" src="Facebook_icon.jpg" width="120" height="75" />
+    </a> <a class="posicion" href="https://www.instagram.com/" title="">
+      <img alt="" src="instagram.jpg" width="120" height="75" />
+    </a> <a class="posicion" href="https://twitter.com" title="">
+      <img alt="" src="Twitter.jpg" width="120" height="75" />
+    </a> <a class="posicion" href="https://www.tiktok.com/es/" title="">
+      <img alt="" src="Tik tok.jpg" width="120" height="75" />
+    </a>
+    <p>678 93 00 00</p>
+    <p>CreatividadReflejada@empresa.com</p>
+    <p>CreatividadReflejada.com</p>
+  </footer>
+</body>
+</html>

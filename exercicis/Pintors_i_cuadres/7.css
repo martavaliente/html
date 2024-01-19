@@ -4,17 +4,17 @@ body{
 a {
     color:rgb(2, 11, 74);
     }
-#Foto{
-    color:rgb(187, 151, 88);
-    font-size: 20px;
-    text-decoration: none;
+
+#ImatgeP{
+    margin: 0%;
+    padding: 0%;
 }
-    #ImatgeP{
-        margin: 0%;
-        padding: 0%;
-    }
+header{
+    top:0;
+    width: 100%;
+}
  #menuprincipal{
-        background-color:rgb(78, 159, 189);
+        background-color: rgb(78, 159, 189);
         color: blue;
         border: 2px solid rgb(37, 169, 240);
         margin: 20px;
@@ -28,16 +28,12 @@ a {
             }
             
 #tit {
-        color: rgb(35, 69, 110);
+        color: rgb(78, 159, 189);
         text-align: center;
         }  
-#ti {
-    color: rgb(35, 69, 110);
-    text-align: center;
-}  
 .cuadro {
-    background: linear-gradient(to bottom, rgba(169,228,247,1) 0%,rgba(61,190,229,1) 100%); 
-    color: rgb(187, 151, 88);
+    background:linear-gradient(to bottom, rgba(169,228,247,1) 0%,rgba(61,190,229,1) 100%); 
+    color: rgb(70, 130, 180);
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
@@ -98,3 +94,9 @@ a {
     font-size: 20px;
     margin-right: 40px;
 }
+.CuadroInfo{
+    background-color: rgb(153, 229, 219);
+    border: 2px solid black;
+    margin: 30px ;
+    padding: 20px;
+}   

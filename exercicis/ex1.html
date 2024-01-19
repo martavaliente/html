@@ -9,56 +9,64 @@
 <!-- header defineix una zona a dins del body, sempre a la part
 superior-->
 <header>
-<h1 id="tit">Obras de arte más comunes</h1>
-<h2>Picasso</h2>
+    <div id="ImatgeP">
+        <img src="ImatgeP.jpg" alt="" width="100%" height="300px">
+    </div>
+<h1 id="tit">Artistas referentes</h1>
 <!-- definim un navegador, com si fora una llista per ara
 les referencies no apunten enlloc-->
-<nav id="menuprincipal">
-<li><a href="#">Inici</a></li>
-<li><a href="#">Productes</a></li>
-<li><a href="#">Serveis</a></li>
-<li><a href="#">Contacte</a></li>
+<nav id="menuprincipal" style="text-align: center">
+<li><a id="l1" href="#">Inici</a></li>
+<li><a id="l2" href="#">Cuadros de Picasso</a></li>
+<li><a id="l2" href="#">Cuadros de Van Gogh</a></li>
+<li><a id="l2" href="#">Cuadros de Dalí</a></li>
+<li><a id="l2" href="#">Cuadros de Miro</a></li>
+<li><a id="l3" href="#">Serveis</a></li>
+<li><a id="l4" href="#">Contacte</a></li>
 </nav>
+<h2 id="ti">El arte esta en las venas</h2>
 </header>
 <!-- deifnim una nova etiqueta section (similar al div)-->
-<section>
+<section style="text-align: center">
 <!-- dins d'una secció podem definir diferents articles-->
 <article class="cuadro">
-<h1>Guernica</h1>
-<a href="https://www.museoreinasofia.es/coleccion/obra/guernica"> Informació</a>
+  <a  id="Foto" href="Pintors_i_cuadres/Picasso.html"> Picasso (Cuadros) </a>
+<div >
+  <img src="Pablo_picasso_1.jpg" alt="" width="30%" height="150px">
+</div>
 </article>
 <article class="cuadro">
-<h1>Las señoritas de Avignon</h1>
-<a href="#">Amplia informaió</a>
+  <a  id="Foto" href=""> Van Gogh (Cuadros) </a> 
+  <div>
+    <img src="van gogh.jpg" alt="" width="30%" height="150px">
+  </div>
 </article>
 <article class="cuadro">
-<h1>El sueño</h1>
-<a href="#">Amplia informaió</a>
+  <a id="Foto" href=""> Dalí (Cuadros) </a>
+  <div>
+    <img src="Dali.jpg" alt="" width="30%" height="150px">
+  </div>
 </article>
 <article class="cuadro">
-<h1>Chica frente a un espejo</h1>
-<a href="#">Amplia informaió</a>
+  <a id="Foto" href=""> Miro (Cuadros) </a>
+  <div>
+    <img src="Miro.jpg" alt="" width="30%" height="150px">
+  </div>
 </article>
 </section>
-<video controls class="cuadro">
-    <source src="Video.mp4"/>
-    </video> 
-    <form method="post" action="https://result.php">
-        <br>
-        <input type="text" />
-        <br>
-        <input type="checkbox"/>
-        <input type="button" value="pulsar"/>
-        <br>
-        <select>
-        <option>opcio 1</option>
-        <option>opcio 2</option>
-        </select>
-        <textarea>àrea de text</textarea>
-        <input class="btn" type="button" value = "enviar">
-    
-    
-        </form>
-       
+<footer>
+  <p>©2024 Copyright</p> <a class="posicion" href="https://www.facebook.com" title="HTML link image example">
+	<img alt="imagen html de ejemplo" src="Facebook_icon.jpg" width="120" height="75" />
+  </a> <a class="posicion" href="https://www.instagram.com/" title="HTML link image example">
+	<img alt="imagen html de ejemplo" src="instagram.jpg" width="120" height="75" />
+  </a> <a class="posicion" href="https://twitter.com" title="HTML link image example">
+	<img alt="imagen html de ejemplo" src="Twitter.jpg" width="120" height="75" />
+  </a> <a class="posicion" href="https://www.tiktok.com/es/" title="HTML link image example">
+	<img alt="imagen html de ejemplo" src="Tik tok.jpg" width="120" height="75" />
+  </a>
+  <p>678 93 00 00</p>
+  <p>CreatividadReflejada@empresa.com</p>
+  <p>CreatividadReflejada.com</p>
+</footer>
 </body>
 </html>
