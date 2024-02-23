@@ -1,12 +1,177 @@
 body{
-    background-color: burlywood;
+    background-color: rgba(181, 146, 108);
+}
+#historia{
+    background-color: rgba(180, 181, 108);
+}
+#xup{
+    
+    background-color: rgba(180, 181, 108);
+    width: 100%;
+}
+#xup2{
+    color:rgb(114, 93, 71);
+    text-align: center;
+}
+#titol{
+    color:rgb(114, 93, 71);
+    text-align: center;
+}
+#foter{
+    background-color: rgba(180, 181, 108);
+    width: 100%;
+}
+#footer1{
+    text-align: center;
+    margin-right: 500px;
+    font-size: medium;
+}
+#footer2{
+    text-align: center;
+    margin-top: -18px;
+    font-size: medium;
+}
+#footer3{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -18px;
+    font-size: medium;
+}
+header{
+    background-color: rgb(180, 181, 108);
+    position: fixed;
+    width: 100%;
+    top:0%;
+    right: 0%;
+    z-index: 1000;
+}
+.ima{
+    background-color: rgb(180, 181, 108);
+    position: static;
+    width: 100%;
+    top:0%;
+    right: 0%;
+    z-index: 1000; 
+}
+#tit{
+    text-align: center;
+    margin-top: -60px;
 }
 .iframe{
     width:100%;
     margin-top: 40px;
 }
 .Imatge2{
+    display: grid;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#ImatgeP{
+    text-align: center;
+
+}
+#agra{
+    color:rgb(114, 93, 71);
+    background-color: rgba(180, 181, 108);
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: -90px;
+}
+#AllFoto{
     display: flex;
     justify-content:space-around;
-    margin-top: 40px;
+    flex-direction: row;
+}
+#FotoPeuPaguina1{
+    color: rgb(103, 130, 79);
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#FotoPeuPaguina2{
+    color: rgb(103, 130, 79);
+    text-align: center;
+    margin-top: 100px;
+}
+.texto {
+    column-count: 2;
+}
+@media only screen and (max-width: 576px){
+    .Imatge2{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .iframe{
+        margin-top: 40px;
+        height:315px;
+        width: 185%;
+    }
+    #ImatgeP{
+        width: 185%;
+    }
+    #historia{
+        text-align: center;
+        align-items: center;
+        width: 185%;
+    }
+    #xup{
+        text-align: center;
+        align-items: center;
+        width: 185%;
+    }
+    #agra{
+        text-align: center;
+        align-items: center;
+        width: 185%;
+    }
+    #AllFoto{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
+    #iframe{
+        align-items: center;
+    }
+    #foter{
+        background-color: rgba(180, 181, 108);
+        width: 185%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:992px){
+    #ImatgeP{
+        width: 100%;
+    }
+    #historia{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    #xup{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    #agra{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    #AllFoto{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .iframe{
+        margin-top: 40px;
+        height:315px;
+        width: 100%;
+    }
+    #foter{
+        background-color: rgba(180, 181, 108);
+        width: 100%;
+    }
 }
