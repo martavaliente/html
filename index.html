@@ -3,12 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marta Valiente Gómez</title>
+    <title>Marta Valiente </title>
+    <link rel="icon" href="marta.png" sizes="16x16" type="image/png">
+    <link href="index.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Marta Valiente Gómez</h1>
-        <a href="./exercicis/ex1.html">Exercici 1</a>
-        <a href="./BlackPink/blackpink.html">Exercici 2</a>
-        <a href="./PÀGINA DE Viladoms de dalt/Viladoms_de_dalt.html">Exercici 3</a>
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:50px">Marta Valiente Gómez</h1>
+          <h3 style="font-size: 30px;">Baxillerat</h3>
+          <button id="pdfButton" class="btn">Curriculum</button>
+            <script>
+            document.getElementById("pdfButton").addEventListener("click", function() {
+                window.open("Currículum Marta Valiente (1).pdf", "_blank");
+            });
+            </script>
+        </div>
+      </div>
+      <div class="navbar">
+        <a href="#home">Projectes personals</a>
+        <a href="#MiProject">Projectes</a>
+        <a href="#AboutMe">Sobre mi</a>
+        <a href="#contact">Contactem</a>
+      </div>
+      <div class="pro">
+        <h3>Els meus projectes privats</h3>
+      </div>
+        <div class="projects" id="home">
+            <iframe title="Atrapats al gimnàs" frameborder="0" width="100%" height="80%" src="https://view.genial.ly/60ace1d59507df0d945bafd0" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+            <iframe title="CMC a l'atac" frameborder="0" width="100%" height="80%"src="https://view.genial.ly/6226623d77428d00197dfc65" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+            <iframe title="¿DÓNDE ESTÁ? EUROPA" frameborder="0" width="100%" height="80%" src="https://view.genial.ly/613e26827602e60d61414766" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+            <iframe title="Presentation of English BABEL" frameborder="0" width="100%" height="80%"src="https://view.genial.ly/64b11d3690a13f001a09e114" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
+        </div>
+        <div class="pro" id="MiProject">
+            <h3>Els meus projectes</h3>
+          </div>
+        <div class="projects">
+        <div>
+            <a href="./exercicis/ex1.html" title="">
+                <img alt="" src="Exercici1.jpg" width="90%" height="80%" />
+            </a>
+        </div>
+        <div>
+            <a href="./BlackPink/blackpink.html" title="">
+                <img alt="" src="Exercici 2.jpg" width="90%" height="80%" />
+            </a>
+        </div>
+        <div>
+            <a href="./PÀGINA DE Viladoms de dalt/Viladoms_de_dalt.html" title="">
+                <img alt="" src="Exercici3.jpg" width="90%" height="80%" />
+            </a>
+        </div>
+        </div>
+        <div id="pro2" id="AboutMe">
+            <div id="pro2_1">
+                <h3>Una mica sobre mi</h3>
+            </div>
+            <div>
+                <h3>Personalitat</h3>
+                <a>Extrovertida
+                    Intuitiva
+                    Curiosa
+                    Creativa
+                </a>
+                <div>
+                    <a> El meu MBTI: ENFJ</a>
+                </div>
+            </div>
+            <div>
+                <h3>Hobby</h3>
+                <a>Dibuixar
+                   Jugar a videojocs
+                   Escoltar musica
+                   Cantar
+                   Ballar
+                </a>
+            </div>
+        </div>
 </body>
+<footer>
+    <div id="contact">
+    <div>
+        <div id="pro3">
+            <h3>Contactem</h3>
+        </div>
+      </div>
+    <a >valientemarta12@gmail.com</a>
+</div>
+</footer>
 </html>
