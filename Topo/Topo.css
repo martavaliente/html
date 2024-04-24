@@ -1,13 +1,14 @@
 :root {
     color: #000000;
+    cursor: url(martilloThor.png),auto;
   }
-  
   body {
     font-family: 'Comic Sans MS';
     background-color: green;
     background-image: url(golf.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
   }
 
   #section_tauler,
