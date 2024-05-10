@@ -16,15 +16,16 @@ function esborra(){
   notesTocades=[];
   document.getElementById("notes").innerHTML=notesTocades;
 }
-function guarda() {
-  let i = 0;
-  const interval = setInterval(() => {
-      if (i < notesTocades.length) {
-          playSound(notesTocades[i]);
-          i++;
-      } else {
-          clearInterval(interval);
-      }
-  }, 500); // Adjust this value to control the playback speed
+async function guarda() {
+  for (let i = 0; i < notesTocades.length; i++) {
+    let nota = notesTocades[i];
+    let audio = new Audio(nota + '.mp3');
+    audio.play();
+    await sleep(500);
+  }
+}
+
+function sleep(ms) {
+  return new Promise(resolve => {setTimeout(resolve, ms); });
 }
 
